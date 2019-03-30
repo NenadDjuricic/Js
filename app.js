@@ -49,7 +49,7 @@ document.querySelector('.btn-hold').addEventListener('click', function () {
 
 
 
-if(scores[activePlayer] >= 20){
+if(scores[activePlayer] >= 10){
     document.querySelector('#name-' + activePlayer).textContent = 'Winner';
     document.querySelector('.dice').style.display = 'none';
     document.querySelector('.player-' + activePlayer + '-panel').classList.add('winner');
